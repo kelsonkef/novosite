@@ -21,15 +21,13 @@
     				<?php
     				if($convenios != false){
     					foreach ($convenios as $convenio):	
-    					echo URL_IMG."arquivos/conv/convenio/".$convenio->url_img;
-    			?>
+    					
+    			     ?>
     					<div class="col s6 l3">
-    						<a href="#modal<?php echo $convenio->id_convenio; ?>">
+    						<a href="#modal/<?php echo $convenio->id_convenio; ?>">
     						<div class="card waves-effect waves-light-2 card-c">
     							<div class="card-image">
-    							  <img class="activator" src="<?php echo URL_IMG."arquivos/conv/convenio/"?><?php
-    							  if($convenio->url_img == "" or file_exists(URL_IMG."arquivos/conv/convenio/".$convenio->url_img)){ echo "logo-home.png"; }
-    							  else{ echo $convenio->url_img; } ?>">
+    							  <img class="activator" src="<?php echo URL_IMG."arquivos/conv/convenio/"?><?php if($convenio->url_img == ""){ echo "logo-pri.png"; }else{ echo $convenio->url_img; } ?>">
     							</div>
     							<div class="card-content">								
     								<span class="card-title activator grey-text text-darken-4">Fone: <?php echo $convenio->telefone; ?></span>							  
@@ -39,7 +37,7 @@
     					</div>						
     					
     					<!-- Modal Structure -->
-    					<div id="modal<?php echo $convenio->id_convenio; ?>" class="modal">
+    					<div id="modal/<?php echo $convenio->id_convenio; ?>" class="modal">
     						<div class="modal-footer">
     						  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="large material-icons">close</i></a>
     						</div>
@@ -53,7 +51,7 @@
     								<div class="card-content card-modal">	
     									<div class="rolagem">
     										<span class="card-title activator grey-text text-darken-4"><h5><?php echo $convenio->titulo; ?></h5></span>
-    										<img src="<?php echo URL_IMG."arquivos/conv/convenio/"?>" />
+    										<img src="<?php echo URL_IMG."arquivos/conv/convenio/"?><?php if($convenio->url_img == ""){ echo "logo-pri.png"; }else{ echo $convenio->url_img; } ?>" />
     										<div class="card-modal-txt">
     											<p><?php echo $convenio->descricao; ?></p>
     											<br />
@@ -87,6 +85,46 @@
 </div>
 
 
+
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo URL_BASE."assets/js/materialize.min.js"?>"></script>
+	<script type="text/javascript">
+		$(".button-not").sideNav();
+		$('.modal').modal();
+		$('.dropdown-button').dropdown({
+				belowOrigin: true,
+				hover: true,
+				constrainWidth: false
+			}
+		);
+		$('.button-collapse').sideNav({
+			 menuWidth: 230
+			}
+		);
+		$('.slider').slider({
+			height: 430
+		});
+		
+		var offset = $('.menu-pri').offset().top;
+		var $meuMenu = $('.menu-pri'); // guardar o elemento na memoria para melhorar performance
+		$(document).on('scroll', function () {
+			if (offset <= $(window).scrollTop()) {
+				$meuMenu.addClass('navbar-fixed');
+			} else {
+				$meuMenu.removeClass('navbar-fixed');
+			}
+		});		
+		
+		$(document).ready(function(){
+		  $('.menu-pri').pushpin({
+			top:180,
+			offset: 15
+		  });
+		});		 
+	</script>
+	<script type="text/javascript" src="<?php echo URL_BASE."assets/js/semantic.min.js"?>"></script>
 
 
 

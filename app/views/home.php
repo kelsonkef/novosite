@@ -29,7 +29,7 @@
                     <div class="blurring dimmable image">
                       <div class="ui inverted dimmer">
                             <div class="content">
-                                    <a href="portalt/pt_index.php?t_header=Transparência ao Sócio">
+                                    <a href="<?php echo URL_BASE."convenios"?>">
                               <div class="center">						
                                     <p class="font_card">O Portal da Transparência é uma importante ferramenta de divulgação da utilização dos recursos, propiciando a participação do sócio, o aperfeiçoamento da gestão e o fortalecimento da democracia.</p>						
                               </div>

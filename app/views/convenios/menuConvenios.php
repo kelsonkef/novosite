@@ -4,7 +4,7 @@
         	<div class="col s12 l12">
         		<div class="row">
         			<div class="col s6 l2">
-        				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Lazer">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/lazer"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -21,8 +21,9 @@
         					</div>
         				</a>
         			</div>
+        			
         			<div class="col s6 l2">
-        				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Educação">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/educacao"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -39,8 +40,9 @@
         					</div>
         				</a>
         			</div>
+        			
         			<div class="col s6 l2">
-        				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Saúde">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/saude"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -57,8 +59,9 @@
         					</div>
         				</a>
         			</div>
+        			
         			<div class="col s6 l2">
-        				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Gastronomia">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/gastronomia"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -75,8 +78,9 @@
         					</div>
         				</a>
         			</div>
+        			
         			<div class="col s6 l2">
-        				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Serviços">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/servicos"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -93,6 +97,7 @@
         					</div>
         				</a>
         			</div>
+        			
         			<div class="col s6 l2">
         				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Comércio">
         					<div class="card waves-effect waves-light-2 card-h">
