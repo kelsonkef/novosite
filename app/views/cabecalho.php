@@ -85,7 +85,7 @@
 				<ul>				  
 				  <li><a href="#!">Planejamento</a></li>				  
 				  <li><a href="<?php if(!$titulo == ""){ echo "../"; }?>portalt/pt_index.php?t_header=Transparência ao Sócio">Portal da Transparência</a></li>
-				  <li><a href="<?php if(!$titulo == ""){ echo "../"; }?>estatuto/est_index.php?acao=5&t_header=Reforma do Estatuto">Reforma do Estatuto</a></li>
+				  <li><a href="<?php if(!$titulo == ""){ echo "../"; }?><?php echo URL_BASE."home/getServicos/estatuto"?>">Reforma do Estatuto</a></li>
 				</ul>			
 			</span></div>
 		</li>
@@ -127,7 +127,7 @@
 <ul id="dropdown3" class="dropdown-content"> 
   <li><a href="#!">Planejamento</a></li>   
   <li><a href="portalt/pt_index.php?t_header=Transparência ao Sócio">Portal da Transparência</a></li>
-  <li><a href="estatuto/est_index.php?acao=5&t_header=Reforma do Estatuto">Reforma do Estatuto</a></li>
+  <li><a href="<?php echo URL_BASE."home/getServicos/estatuto"?>">Reforma do Estatuto</a></li>
 </ul>
 
 <ul id="dropdown4" class="dropdown-content">
