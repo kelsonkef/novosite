@@ -39,3 +39,45 @@
     </div>
 
 </div>
+
+
+
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo URL_BASE."assets/js/materialize.min.js"?>"></script>
+	<script type="text/javascript">
+		$(".button-not").sideNav();
+		$('.modal').modal();
+		$('.dropdown-button').dropdown({
+				belowOrigin: true,
+				hover: true,
+				constrainWidth: false
+			}
+		);
+		$('.button-collapse').sideNav({
+			 menuWidth: 230
+			}
+		);
+		$('.slider').slider({
+			height: 430
+		});
+		
+		var offset = $('.menu-pri').offset().top;
+		var $meuMenu = $('.menu-pri'); // guardar o elemento na memoria para melhorar performance
+		$(document).on('scroll', function () {
+			if (offset <= $(window).scrollTop()) {
+				$meuMenu.addClass('navbar-fixed');
+			} else {
+				$meuMenu.removeClass('navbar-fixed');
+			}
+		});		
+		
+		$(document).ready(function(){
+		  $('.menu-pri').pushpin({
+			top:180,
+			offset: 15
+		  });
+		});		 
+	</script>
+	<script type="text/javascript" src="<?php echo URL_BASE."assets/js/semantic.min.js"?>"></script>
