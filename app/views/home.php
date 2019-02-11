@@ -29,7 +29,7 @@
                     <div class="blurring dimmable image">
                       <div class="ui inverted dimmer">
                             <div class="content">
-                                    <a href="<?php echo URL_BASE."convenios"?>">
+                                    <a href="<?php echo URL_BASE."transparencia"?>">
                               <div class="center">						
                                     <p class="font_card">O Portal da Transparência é uma importante ferramenta de divulgação da utilização dos recursos, propiciando a participação do sócio, o aperfeiçoamento da gestão e o fortalecimento da democracia.</p>						
                               </div>
@@ -79,7 +79,7 @@
 			<div class="col l12 s12 center-align">
 				<div class="ui animated red fade button" tabindex="0">
 				  <div class="visible content">Clique aqui</div>
-				  <a href="qsocio/qsocio_index.php?t_header=Quero me Associar" class="qsocio">
+				  <a href="<?php echo URL_BASE."home/getServicos/associar"?>" class="qsocio">
 				  <div class="hidden content">
 					CLIQUE AQUI
 				  </div>
@@ -97,7 +97,7 @@
 			<div class="col l12 s12 center-align">
 				<div class="ui animated red fade button" tabindex="0">
 				  <div class="visible content">Clique aqui</div>
-				  <a href="rcadastro/rcadastro_index.php?t_header=Recadastramento de Sócios" class="qsocio">
+				  <a href="<?php echo URL_BASE."home/getServicos/recadastro";?>" class="qsocio">
 				  <div class="hidden content">
 					CLIQUE AQUI
 				  </div>
