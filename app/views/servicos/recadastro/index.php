@@ -23,7 +23,7 @@
     			<div class="col l12 s12 center-align">
     				<div class="ui animated red fade button" tabindex="0">
     				  <div class="visible content">Clique aqui</div>
-    				  <a href="recadastramento_socio.doc" class="qsocio">
+    				  <a href="<?php echo URL_BASE."assets/arquivos/recadastramento_socio.doc"?>" class="qsocio">
     				  <div class="hidden content">
     					CLIQUE AQUI
     				  </div>
@@ -38,7 +38,7 @@
     			<div class="col l12 s12 center-align">
     				<div class="ui animated red fade button" tabindex="0">
     				  <div class="visible content">Clique aqui</div>
-    				  <a href="cadastro_bancario_socio.doc" class="qsocio">
+    				  <a href="<?php echo URL_BASE."assets/arquivos/cadastro_bancario_socio.doc"?>" class="qsocio">
     				  <div class="hidden content">
     					CLIQUE AQUI
     				  </div>

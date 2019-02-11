@@ -13,8 +13,11 @@
     						</a>			
     					<?php endif; ?>	
     					<div class="middle aligned content">
-    					  <div class="header">
-    						<?php echo $noticia->titulo ?>
+    					  <div class="container">
+    					  	<div class="col s12 m12 l12 center-align txt-noticia2">
+    					  		<p><h2><?php echo $noticia->titulo ?></h2></p>
+    					  	</div>
+    						
     					  </div>
     					  <div class="meta">
     						<span class="price">Publicado em <?php setlocale(LC_ALL, 'pt_br', 'pt_br.utf-8', 'pt_br.utf-8', 'portuguese');

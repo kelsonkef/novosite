@@ -23,7 +23,7 @@
     			<div class="col l12 s12 center-align">
     				<div class="ui animated red fade button" tabindex="0">
     				  <div class="visible content">Clique aqui</div>
-    				  <a href="Requerimento-inclusao.doc" class="qsocio">
+    				  <a href="<?php echo URL_BASE."assets/arquivos/Requerimento-inclusao.doc"?>" class="qsocio">
     				  <div class="hidden content">
     					CLIQUE AQUI
     				  </div>

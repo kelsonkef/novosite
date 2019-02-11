@@ -15,18 +15,18 @@
     			<div class="row">
     				<div class="col s12">
     					<div class="ui centered card">
-    					  <a href="#modal1-6" class="image">
+    					  <a href="#modal/1-6" class="image">
     						<img src="<?php echo URL_IMG."servicos/estatuto/"?>estatuto_logo.png">
     					  </a>
     					  <div class="content">
-    						<a href="#modal1-2" class="header">Clique aqui</a>								
+    						<a href="#modal/1-6" class="header">Clique aqui</a>								
     					  </div>
     					</div>
     					
     					<!-- Modal Structure -->
-    					<div id="modal1-6" class="modal modal-fixed-footer">
+    					<div id="modal/1-6" class="modal modal-fixed-footer">
     						<div class="modal-content">						  
-    						  <p><embed src="img/estatuto.pdf" width="100%" height="755" alt="pdf" ></p>
+    						  <p><embed src="<?php echo URL_BASE."assets/arquivos/estatuto.pdf"?>" width="100%" height="755" alt="pdf" ></p>
     						</div>
     						<div class="modal-footer">
     						  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>

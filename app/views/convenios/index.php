@@ -1,3 +1,5 @@
+ <link rel="stylesheet" href="<?php echo URL_BASE ?>assets/css/convenios.css" />
+
 <div class="home">
         <?php include 'menuConvenios.php';?>	
     	</div>

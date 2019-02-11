@@ -59,7 +59,7 @@
                       <img src="<?php echo URL_BASE ?>assets/img/conv_img.png">
                     </div>
                     <div class="content">
-                      <h4><a href="convenios/con_index.php?t_header=Nossos Convênios">Rede Conveniada</a></h4>				  
+                      <h4><a href="<?php echo URL_BASE."convenios"?>">Rede Conveniada</a></h4>				  
                     </div>				
               </div> 
             </div>
