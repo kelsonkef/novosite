@@ -5,7 +5,7 @@
     		<div class="row">
     			<div class="col s12 l12">
     				<div class="col s12 l6">
-    					<span class="card-titulo-not activator grey-text text-darken-4">Nossos Convênios de <?php echo "Mostrar a categoria do convenio" ?></span>						
+    					<span class="card-titulo-not activator grey-text text-darken-4"><?php echo $titulo ?></span>						
     				</div>
     				<div class="col s12 l12">
     					<hr class="hr-not">

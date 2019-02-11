@@ -4,7 +4,7 @@
         	<div class="col s12 l12">
         		<div class="row">
         			<div class="col s6 l2">
-        				<a href="<?php echo URL_BASE."convenios/getConvenios/lazer"?>">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/1"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -23,7 +23,7 @@
         			</div>
         			
         			<div class="col s6 l2">
-        				<a href="<?php echo URL_BASE."convenios/getConvenios/educacao"?>">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/2"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -42,7 +42,7 @@
         			</div>
         			
         			<div class="col s6 l2">
-        				<a href="<?php echo URL_BASE."convenios/getConvenios/saude"?>">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/3"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -61,7 +61,7 @@
         			</div>
         			
         			<div class="col s6 l2">
-        				<a href="<?php echo URL_BASE."convenios/getConvenios/gastronomia"?>">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/4"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -80,7 +80,7 @@
         			</div>
         			
         			<div class="col s6 l2">
-        				<a href="<?php echo URL_BASE."convenios/getConvenios/servicos"?>">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/5"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
@@ -99,7 +99,7 @@
         			</div>
         			
         			<div class="col s6 l2">
-        				<a href="con_index.php?link=2&t_header=Nossos Convênios&acaot=Comércio">
+        				<a href="<?php echo URL_BASE."convenios/getConvenios/6"?>">
         					<div class="card waves-effect waves-light-2 card-h">
         						<div class="row">
         							<div class="col s1"></div>
